@@ -35,8 +35,8 @@
       <!-- [grid|inline-grid] -->
       <!-- [invisible pour visibility|hidden pour display] -->
 
-      <p class="">Lorem ipsum dolor sit amet.</p>
-      <div class=" w-10 h-10 bg-blue-400"></div>
+      <p class="invisible">Lorem ipsum dolor sit amet.</p>
+      <div class="w-10 h-10 bg-blue-400"></div>
 
       <h2 class="text-4xl text-gray-50 pt-10 pb-5">Box Sizing/Floats/Clear</h2>
       <!-- [box-border|content] -->
@@ -48,7 +48,7 @@
       <h2 class="text-4xl text-gray-50 pt-10 pb-5">Object-fit / position</h2>
       <!-- [object-(cover|contain|fill|none)] -->
       <!-- [object-(bottom|center|left|right|left|bottom|right|top)]  -->
-      <img src="./img-bg.jpg" class="block w-96 h-96 ">
+      <img src="./img-bg.jpg" class="object-cover block w-96 h-96 ">
 
 
 
@@ -65,15 +65,15 @@
       <!-- inset-0	 -->
 
       <!-- Classes arbitraires [top-[157px]] -->
-      <div class=" w-32 h-32  bg-green-400 "></div>
+      <div class="relative top-10 w-32 h-32  bg-green-400 "></div>
 
 
       <h2 class="text-4xl text-gray-50 pt-10 pb-5">Z-Index / visibilité</h2>
       <!-- [z-(0|10|20|30|auto)] -->
 
       <div class="w-32 h-32 relative bg-blue-400 ">
-          <div class="w-20 h-20 bg-red-400 absolute "></div>
-          <div class="w-20 h-20 bg-white absolute "></div>
+          <div class="w-20 h-20 bg-red-400 absolute z-10"></div>
+          <div class="w-20 h-20 bg-white absolute z-20"></div>
       </div>
       
 
@@ -91,7 +91,7 @@
       <!-- On peut également scale, rotate, skew, etc ... -->
       <!-- [scale-x-50], [rotate-45] etc ... -->
 
-      <div class="w-32 h-32  bg-green-400 "></div>
+      <div class="rotate-45 w-32 h-32 bg-green-400 "></div>
 
       
     </div>
