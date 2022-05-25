@@ -3,7 +3,6 @@
 _Repo created for the course [Tailwind de A à Z](https://www.udemy.com/course/taildwindcss-de-a-a-z/) on Udemy_
 
 - Selflearning
-- Theorical duration of the course : 10h
 
 ## Technologies used
 
