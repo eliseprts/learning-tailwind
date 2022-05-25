@@ -1,3 +1,49 @@
+/* reset */
 @tailwind base;
+/* composants créés (de base : rajoute le composant 'container') */
 @tailwind components;
+/* toutes les autres classes utilitaires de Tailwind */
 @tailwind utilities;
+
+/* PERSONNALISATION */
+
+/* Création d'une nouvelle classe */
+/* .title {
+    font-size: 40px;
+    background-color: #333;
+    padding: 10px;
+} */
+
+/* Personnaliser font  */
+/* @layer base {
+    html {
+        font-family: Montserrat, system-ui, sans-serif;
+    }     
+} */
+
+/* Rajouter des classes à un couche */
+/* @layer base {
+    h1 {
+        color: grey; */
+        /* Appliquer des classes Tailwind */
+        /* @apply text-2xl; 
+    }
+} */
+/* @layer utilities {
+    .customClass {
+        background: antiquewhite;
+    }
+} */
+
+/* Créer des composants */
+@layer components {
+    .btn {
+        /* padding : 10px;
+        min-width: 200px;
+        background: salmon; */
+
+        @apply p-4 min-w-[200px] text-zinc-800 bg-red-300;
+
+        /* background-color : theme('colors.red.500'); */
+    }
+}

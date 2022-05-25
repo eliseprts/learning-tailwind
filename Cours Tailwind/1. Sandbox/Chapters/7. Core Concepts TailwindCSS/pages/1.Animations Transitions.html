@@ -26,22 +26,22 @@
       <h2 class="bg-bleu-nuit-800 text-4xl text-gray-50 pt-10 pb-5 animate-fade">Les animations </h2>
     
       <!-- Spin : animate-spin -->
-      <div class="w-10 h-10 border-[5px] rounded-full	border-slate-200 border-r-indigo-900	 mt-10"></div>
+      <div class="animate-spin w-10 h-10 border-[5px] rounded-full	border-slate-200 border-r-indigo-900	 mt-10"></div>
       
       <!-- Ping : animate-ping -->
-      <div class="w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10"></div>
+      <div class="animate-ping w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10"></div>
 
       <!-- Pulse : animate-pulse -->
-      <div class="w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10"></div>
+      <div class="animate-pulse w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10"></div>
 
       <!-- Bounce : animate-bounce -->
-      <div class="w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10"></div>
+      <div class="animate-bounce w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10"></div>
 
 
       <h2 class="bg-bleu-nuit-800 text-4xl text-gray-50 pt-10 pb-5">Le Survol</h2>
       <!-- On utilise le "modifier" hover: pour animer ou changer de propriété au survol -->
 
-      <div class=" w-10 h-10 border-[5px] rounded-full	border-slate-200 border-r-indigo-900	 mt-10"></div>
+      <div class="hover:animate-spin w-10 h-10 border-[5px] rounded-full	border-slate-200 border-r-indigo-900	 mt-10"></div>
 
       
       <h2 class="bg-bleu-nuit-800 text-4xl text-gray-50 pt-10 pb-5">Les transitions</h2> 
@@ -56,7 +56,9 @@
           [transitions-transform]
       -->
       
-      <div class="bg-blue-500 w-10 h-10 border-[5px] rounded-full	border-slate-200 border-r-indigo-900	 mt-10"></div>
+      <div class="transition-transform transitions-colors duration-300 ease-out hover:bg-amber-400 hover:scale-110 bg-blue-500 w-10 h-10 border-[5px] rounded-full	border-slate-200 border-r-indigo-900	 mt-10"></div>
+
+      <div class="w-10 h-10 bg-slate-300 rounded-full	bg-blue-200 mt-10 transition-transform hover:animate-fade "></div>
 
     </div>
 </body>
