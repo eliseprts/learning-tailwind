@@ -9,6 +9,91 @@
 </head>
 <body>
 
+  <div class="min-h-[845px] h-screen flex bg-gray-50">
+
+    <!-- Container -->
+    <div class="flex-1 flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-20 lg:flex-none xl:px-24">
+
+      <div class="mx-auto w-full max-w-sm lg:w-96">
+        
+        <h2 class="mt-6 text-2xl font-extrabold">Take a breath, sign up</h2>
+        <a href="#" class="text-green-600 text-sm font-medium">Already have an account ? Sign in</a>
+
+        <!-- Form -->
+        <form class="mt-4">
+
+          <!-- Inputs -->
+          <div class="space-y-5 mt-6">
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+              <input 
+              type="email" 
+              id="email"
+              required 
+              class="w-full mt-1 px-3 py-2 rounded-md border border-gray-300 shadow-sm focus:outline-none focus:border-green-600 sm:text-sm">
+            </div>
+            <div>
+              <label for="password" class="block text-sm font-medium text-gray-600">Password</label>
+              <input
+              type="password" 
+              id="password" 
+              required
+              class="w-full mt-1 px-3 py-2 rounded-md border border-gray-300 shadow-sm focus:outline-none focus:border-green-600 sm:text-sm">
+            </div>
+            <div>
+              <label for="repeatPsw" class="block text-sm font-medium text-gray-600">Repeat password</label>
+              <input
+              type="password"
+              id="repeatPsw"
+              required
+              class="w-full mt-1 px-3 py-2 rounded-md border border-gray-300 shadow-sm focus:outline-none focus:border-green-600 sm:text-sm">
+            </div>
+          </div>
+          
+          <!-- Checkbox -->
+          <div class="flex justify-between items-center mt-8">
+            <div class="flex items-center">
+              <input type="checkbox" id="rememberMe" class="mr-2 w-4 h-4 rounded">
+              <label for="rememberMe" class="block text-sm text-gray-900">Remember me</label>
+            </div>
+            <a href="#" class="text-sm font-medium text-green-600 hover:text-green-500">Need help to sign up ?</a>
+          </div>
+          
+          <!-- Button -->
+          <button class="mt-4 w-full py-3 px-4 bg-green-800 rounded-md shadow-sm text-white text-sm font-medium">Sign up</button>
+
+        </form>
+
+        <!-- Other sign up possibilities -->
+        <div class="mt-6">
+          <p class="px-2 mb-2 mt-8 text-center text-gray-500">Or sign up with</p>
+        </div>
+
+        <div class="mt-1 flex justify-center">
+          <a href="#" class="mx-2 p-4 border border-gray-300 rounded-md shadow-sm bg-white hover:bg-gray-50">
+            <span class="sr-only">Sign up with Instagram</span>
+            <img src="./ressources/ig.svg" alt="instagram" class="w-6">
+          </a>
+          <a href="#" class="mx-2 p-4 border border-gray-300 rounded-md shadow-sm bg-white hover:bg-gray-50">
+            <span class="sr-only">Sign up with Pinterest</span>
+            <img src="./ressources/pinterest.svg" alt="pinterest" class="w-6">
+          </a>
+          <a href="#" class="mx-2 p-4 border border-gray-300 rounded-md shadow-sm bg-white hover:bg-gray-50">
+            <span class="sr-only">Sign up with Tumblr</span>
+            <img src="./ressources/tumblr.svg" alt="tumblr" class="w-6">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="hidden relative flex-1 sm:block">
+      <img src="./ressources/nature.jpg" alt="nature" class="h-full object-cover">
+    </div>
+
+
+  </div>
 
 </body>
 </html>
