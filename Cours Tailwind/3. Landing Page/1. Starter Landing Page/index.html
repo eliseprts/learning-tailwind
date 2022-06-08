@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page SEO</title>
+    <link rel="stylesheet" href="./dist/output.css">
+  </head>
+  <body>
+
+    <section class="bg-[url('/ressources/stylish-mesh-bg.jpg')] relative">
+
+      <!-- Navbar -->
+      <nav class="fixed top-0 z-20 bg-gray-50 p-4 w-full grid grid-cols-none shadow-md md:max-w-7xl md:grid-cols-menu md:shadow-none md:relative md:mx-auto md:bg-transparent">
+
+        <div class="flex justify-between items-center md:justify-center">
+          <!-- Logo -->
+          <a href="#accueil">
+            <img src="/ressources/RocketLogo.svg" alt="rocket logo" class="w-12">
+          </a>
+          <!-- Menu hmaburger -->
+          <button class="icone-toggle bg-white rounded-md p-2 ring-1 ring-black ring-opacity-20 md:hidden">
+            <img src="/ressources/menu.svg" alt="icône hamburger" class="h-6 w-6">
+          </button>
+        </div>
+
+        <!-- Menu -->
+        <ul class="toggle-menu hidden px-1 pt-4 bg-gray-50 flex flex-col md:pt-0 md:flex md:bg-transparent md:flex-row md:space-x-10 md:w-auto md:items-center md:justify-center">
+          <li class="py-2 border-t border-gray-200 text-center md:border-0">
+            <a href="#accueil" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Accueil</a>
+          </li>
+          <li class="py-2 border-t border-gray-200 text-center md:border-0">
+            <a href="#services" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Services</a>
+          </li>
+          <li class="py-2 border-t border-gray-200 text-center md:border-0">
+            <a href="#tarifs" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Nos tarifs</a>
+          </li>
+          <li class="py-2 border-t border-b border-gray-200 text-center md:border-0">
+            <a href="#contact" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Login button -->
+        <div class="toggle-menu hidden flex justify-center items-center mt-6 md:mt-0 md:justify-end md:flex">
+          <a href="#" class="shadow-md px-6 py-2 w-40 border rounded-md bg-white hover:bg-gray-50 text-center font-medium text-indigo-600">Log in</a>
+        </div>
+
+      </nav>
+
+      <!-- Accueil -->
+      <div id="accueil" class="px-4 pt-40 pb-56 text-center md:pt-20 sm:pb-80">
+
+        <h1 class="uppercase text-3xl font-extrabold text-gray-900 tracking-tight sm:text-5xl md:text-6xl">
+          <span class="block xl:inline">Faites décoller votre</span>
+          <span class="block text-blue-600 xl:inline">business en ligne</span>
+        </h1>
+        <p class="max-w-sm mx-auto mt-3 text-gray-700 text-lg md:mt-5 md:text-xl md:max-w-2xl lg:max-w-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facilis illum at porro atque eaque ?</p>
+
+        <div class="mt-5 max-w-md mx-auto flex flex-col justify-center items-center space-y-5 sm:flex-row sm:space-y-0 sm:space-x-3 md:mt-8">
+          <a href="#" class="min-w-[250px] px-8 py-3 bg-blue-600 rounded-md shadow text-sm font-medium text-white sm:text-base md:min-w-fit md:py-4 md:text-lg md:px-10">Commencer 🚀</a>
+          <a href="#" class="min-w-[250px] px-8 py-3 bg-white rounded-md ring-1 ring-gray-200 shadow text-sm font-medium text-zinc-800 hover:bg-gray-50 sm:text-base md:min-w-fit md:py-4 md:text-lg md:px-10">Démo 🕹️</a>
+        </div>
+
+      </div>
+
+      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-10">
+        <a href="#services" class="animate-bounce p-2 w-12 h-12 bg-white ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16">
+          <svg class="w-6 h-6 text-violet-500 sm:w-8 h-8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="relative flex flex-col lg:flex-row">
+
+      <div class="cta-striper-bg px-10 pb-16 pt-10 w-full order-2 text-center md:py-32 lg:w-1/2 lg:order-1">
+        <h2 class="text-2xl text-gray-800 font-extrabold sm:text-3xl md:text-5xl">
+          <span class="block uppercase">Passez à l'action</span>
+          <span class="text-blue-800">Boostez votre SEO</span>
+        </h2>
+        <p class="max-w-xs mx-auto mt-3 text-md text-gray-800 sm:text-xl md:mt-5 md:max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cumque.</p>
+        <a href="#" class="min-w-[200px] mt-5 mx-auto inline-block px-8 py-3 bg-blue-600 rounded-md shadow text-white text-md md:mt-10 md:text-xl">Essayez-le 🔥</a>
+      </div>
+
+      <div class="h-96 w-full relative overflow-hidden order-1 lg:static lg:w-1/2 lg:h-full lg:order-2">
+        <img src="/ressources/hommeTravail.jpg" alt="homme au travail" class="absolute w-full h-full object-cover object-center lg:w-1/2">
+      </div>
+
+    </section>
+
+    <!-- Bandeau bleu -->
+    <section class="py-12 px-4 bg-gradient-to-r from-blue-700 to-blue-500 text-center sm:py-16 sm:px-6 lg:px-8 lg:py-20">
+      
+      <h2 class="text-3xl text-white font-extrabold md:text-5xl">10K+ Développeurs déjà convaincus</h2>
+      <p class="max-w-md mx-auto mt-3 text-indigo-200 sm:text-xl sm:mt-4 md:max-w-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quis.</p>
+
+      <div class="flex flex-col justify-center items-center mt-10 space-y-10 sm:space-y-0 sm:space-x-10 sm:flex-row">
+
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-white text-4xl font-extrabold md:text-5xl">100%</p>
+          <p class="mt-2 text-indigo-200 text-lg font-medium">En ligne</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-white text-4xl font-extrabold md:text-5xl">24/7</p>
+          <p class="mt-2 text-indigo-200 text-lg font-medium">Support</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-white text-4xl font-extrabold md:text-5xl">100K+</p>
+          <p class="mt-2 text-indigo-200 text-lg font-medium">Projets</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+
+  </body>
+</html>
