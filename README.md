@@ -22,5 +22,5 @@ _Repo created for the course [Tailwind de A à Z](https://www.udemy.com/course/t
 - [x] Discovery and installation
 - [x] Basic utilities classes
 - [x] Using the special features of Tailwind
-- [ ] Creating components with Tailwind
-- [ ] Creating a landing page
+- [x] Creating components with Tailwind
+- [x] Creating a landing page
